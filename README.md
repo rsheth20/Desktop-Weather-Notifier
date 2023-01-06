@@ -1,1 +1,2 @@
 # Desktop-Weather-Notifier
+This weather notification program was developed using Tkinter for the GUI and the OpenWeatherMap API to retrieve weather data. When the user enters a location and clicks the "Get Notification" button, the program retrieves the current weather data for that location and displays a notification with the temperature, atmospheric pressure, humidity, and a description of the weather. In the event of any errors, the program will display a pop-up message to the user.
