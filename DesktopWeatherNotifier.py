@@ -11,7 +11,7 @@ def getNotification():
     baseUrl = "http://api.openweathermap.org/data/2.5/weather?" #base url from where we extract weather report
     try:
         # This is the complete url to get weather conditions of a city
-        complete_url = baseUrl + "appid=" + "d850f7f52bf19300a9eb4b0aa6b80f0d" + "&q=" + cityName  
+        complete_url = baseUrl + "appid=" + "API_KEY" + "&q=" + cityName  
         response = requests.get(complete_url) #requesting for the the content of the url
         x = response.json() #converting it into json 
         y = x["main"] #getting the "main" key from the json object
